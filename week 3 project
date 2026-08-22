@@ -1,0 +1,89 @@
+# Week 2 Project: The Coffee Shop Breach
+
+**Date:** August 22, 2026
+---
+
+## Scenario
+
+An employee connected to "Free_Coffee_WiFi" at a coffee shop. Hours later, $50,000 was stolen from the company payroll system.
+
+---
+
+## Investigation & Answers
+
+### Part 1: OSINT (Days 15-16)
+
+**Q1: How did the hacker know Victory works at TechCorp?**  
+> Victory's LinkedIn profile showed "Finance Manager at TechCorp." Hackers use OSINT to gather this info.
+
+**Q2: Why is the LinkedIn breach important?**  
+> The hacker found Victory's email in the 2016 LinkedIn data breach and used it to target him.
+
+---
+
+### Part 2: Passwords (Day 17)
+
+**Q3: Why was "victory123" weak?**  
+> Short, uses a common name, simple number sequence. Can be cracked in minutes.
+
+**Q4: What should Victory have used instead?**  
+> A long passphrase with mixed characters, e.g., `You$%60124Qip9;;?+]<4<]` (would take centuries to crack).
+
+---
+
+### Part 3: Phishing 2.0 (Day 18)
+
+**Q5: What type of attack was the SMS?**  
+> Smishing (SMS phishing).
+
+**Q6: What should Victory have done?**  
+> Not clicked the link. Contacted HR/payroll directly using official contact info.
+
+---
+
+### Part 4: Wi-Fi Security (Day 19)
+
+**Q7: What could the hacker see on "Free_Coffee_WiFi"?**  
+> Banking details, passwords, sensitive data, unencrypted traffic.
+
+**Q8: How could Victory have protected himself?**  
+> Used a VPN to encrypt all traffic, even on public Wi-Fi.
+
+---
+
+### Part 5: Malware (Day 20)
+
+**Q9: What type of malware was the PDF converter?**  
+> A Trojan (disguised as legit software, installed malware).
+
+**Q10: What should Victory do after realizing the infection?**  
+> Delete cookies, move important files to encrypted folders, run antivirus, change passwords from a different device, report to IT.
+
+---
+
+### Bonus: Company Prevention
+
+**Q11: What 3 things could the company do to prevent this?**  
+1. Enforce tough firewalls  
+2. Reduce privilege access (Zero Trust)  
+3. Mandatory security training for all employees
+
+---
+
+## Key Takeaway
+
+> *"Cybersecurity is a chain. One weak link — a weak password, a public Wi-Fi, a careless click — can break the entire system."*
+
+---
+
+## Topics Covered This Week
+
+- OSINT (Days 15-16)
+- Password Security (Day 17)
+- Phishing 2.0 (Day 18)
+- Wi-Fi Security (Day 19)
+- Malware Types (Day 20)
+
+---
+
+**Week 3 Complete — August 22, 2026**
