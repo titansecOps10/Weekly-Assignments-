@@ -1,0 +1,42 @@
+# Day 40 — Unprotected Admin Functionality
+
+## Topic
+
+OWASP A01 — Broken Access Control
+
+### Lab
+PortSwigger Web Security Academy — Unprotected admin functionality with unpredictable URL
+
+---
+
+## Objective
+
+Investigate whether an application's administrative functionality is properly protected by server-side authorization controls.
+
+The lab contains an admin panel at an unpredictable URL.
+
+The location of the admin panel is disclosed somewhere in the application's source code.
+
+---
+
+## Reconnaissance
+
+The application's homepage source was inspected using Firefox.
+
+The following JavaScript was identified:
+
+```javascript
+var isAdmin = false;
+
+if (isAdmin) {
+    var topLinksTag =
+    document.getElementsByClassName("top-links")[0];
+
+    var adminPanelTag = document.createElement('a');
+
+    adminPanelTag.setAttribute('href', '/admin-rblf21');
+
+    adminPanelTag.innerText = 'Admin panel';
+
+    topLinksTag.append(adminPanelTag);
+}
